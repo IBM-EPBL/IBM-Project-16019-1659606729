@@ -1,14 +1,14 @@
 # IBM-Project-16019-1659606729
 Fertilizers Recommendation System For Disease Prediction
 
-Team leader (arun anand)
+Team leader (ARUN ANAND)
 
 team members
 
-1.arun anand
+1.ARUN ANAND
 
-2.karthick raja
+2.KARTHICK RAJA 
 
-3.sathish kumar
+3.SATHISH KUMAR
 
-4.maris seenivas
+4.MARIS SEENIVAS
