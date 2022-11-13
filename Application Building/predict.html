@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>predict</title>
+</head>
+
+<style>
+    .container{
+        display: flex;
+        padding: 60px 70px 60px 70px;
+    }
+    .card{
+        padding: 70px 80px 70px 80px;
+    }
+    .menu{
+        padding: 10px 10px 10px 10px;
+        background-color: black;
+        color: white;
+        font-size: 15pt;
+    }
+</style>
+<body>
+    <div class="menu">
+        <ul ><li>Plant disease Prediction</li></ul></div>
+    <div class="container">
+    
+        <img src="img1.jpg">
+        <div class="card">
+        <form>
+            <h1>Drop in the image to get the Prediction </h1><br><br>
+            <label><select name="Fruit" id="plant">
+                <option value="fruit" id="fruit">Fruit</option>
+                <option value="vagitable" id="vig">vegitable</option>
+                </select>
+            </label><br><br><br>
+            <input  id="default-btn" type="file" name="" onchange="document.getElementById('output').src=window.URL.createObjectURL(this.files[0])"><br><br><br>
+            <img src="" id="output">
+            
+            <button id="button" onclick ="display()" >Predict!</button><br><br>
+
+            
+
+        </form>
+        
+        
+    
+</body>
+</html>
